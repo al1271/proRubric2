@@ -1,0 +1,36 @@
+
+<h1>Create your own dynamic form</h1>
+<div class="container" ng-app="dynamicFormApp" ng-controller="mainController as ctrl">
+    <form  ng-submit="ctrl.submit(surveyForm.$valid, data)"  name="surveyForm"  novalidate>
+{{! Create the titles of your forms }}
+        <section class="hideBox">
+        	<h1>Form Titles</h1>
+	        <div ng-repeat="input in aryInput">
+	            <label>//input.title//</label>
+	            <input type="//input.type//" class="form-control" name="//input.name//" placeholder="//input.placeholder//" required ng-model="input.value"/>
+	        </div>
+	    </section>
+<!-- create the values to your titles -->
+	    <section class="hideBox">
+	    	<h1>Form Values</h1>
+	        <div id="bottomBlock" ng-repeat="input in ine">
+	        	<label>//input.value//</label>
+	            <input type="//input.type//" class="form-control" name="//input.name//" placeholder="" required ng-model="input.color"></input>
+	        </div>
+	        	       	<input type="submit" value="Submit">
+
+	    </section>
+    </form>
+
+{{! hidden Boxes }} 
+		<section class="one">
+	    	<h1>Your Form</h1>
+	        <div id="bottomBlock" ng-repeat="input in fin">
+	        	<label>//input.value//</label>
+	            <input type="//input.type//" class="form-control" name="//input.name//" placeholder="" required ng-model="input.color">
+	        </input>
+	        </div>
+	        		<button onClick="download()">Download</button>
+	    </section>
+     </pre>
+</div>

@@ -1,0 +1,25 @@
+{
+  "name": "prorubrics2",
+  "version": "0.0.0",
+  "description": "dynamic form",
+  "main": "app.js",
+  "scripts": {
+    "test": "."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffreymendez1993/proRubric2.git"
+  },
+  "author": "prorubrics2 team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffreymendez1993/proRubric2/issues"
+  },
+  "homepage": "https://github.com/jeffreymendez1993/proRubric2#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "mongoose": "^4.1.10"
+  }
+}
